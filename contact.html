@@ -26,7 +26,7 @@
     <!-- Custom Stylesheets & Fonts -->
     <link rel="stylesheet" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
     <!-- Page Components -->
     <title>Andrew Kelleher | Contact</title>
@@ -70,27 +70,38 @@
             <!-- Contact -->
             <div class="container bg-white p-3 mt-5 mb-5">
                 <div class="row align-items-center">
-                    <figure class="col-12 col-lg-4 mb-0 text-center ">
-                        <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="andrew-kelleher-58018588"><a class="LI-simple-link" href='https://au.linkedin.com/in/andrew-kelleher-58018588?trk=profile-badge'>Andrew Kelleher</a></div>
+                    <!-- LinkedIn Profile, code provided by LinkedIn -->
+                    <figure class="col-12 col-lg-4 mb-0 text-center">
+                        <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US"
+                            data-type="vertical" data-theme="dark" data-vanity="andrew-kelleher-58018588"><a
+                                class="LI-simple-link"
+                                href='https://au.linkedin.com/in/andrew-kelleher-58018588?trk=profile-badge'>Andrew
+                                Kelleher</a></div>
                     </figure>
+                    <!-- Contact Form -->
                     <div class="col-12 col-lg-8">
                         <h1 class="handwritten">Contact me!</h1>
                         <p>If you would like to get in contact with me, this form is broken but you can try it anyway.</p>
                         <form>
+                            <!-- Name -->
                             <div class="form-group">
                                 <label for="contact_name">Your Name?</label>
                                 <input type="text" class="form-control" id="contact_name"
                                     placeholder="&lt;Please enter your name&gt;">
                             </div>
+                            <!-- Email Address -->
                             <div class="form-group">
                                 <label for="contact_email">Your Email Address?</label>
                                 <input type="text" class="form-control" id="contact_email"
                                     placeholder="&lt;Please enter your email address&gt;">
                             </div>
+                            <!-- Message -->
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Your Message?</label>
-                                <textarea class="form-control" id="contact_message" rows="3" placeholder="&lt;Please enter your message&gt;"></textarea>
-                              </div>
+                                <label for="contact_message">Your Message?</label>
+                                <textarea class="form-control" id="contact_message" rows="3"
+                                    placeholder="&lt;Please enter your message&gt;"></textarea>
+                            </div>
+                            <!-- Buttons -->
                             <button type="button" class="btn btn-secondary">Submit</button>
                         </form>
                     </div>
