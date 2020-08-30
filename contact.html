@@ -18,25 +18,98 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
-        
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
-    <!-- Custom Stylesheets -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- Custom Stylesheets & Fonts -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
     <!-- Page Components -->
-    <title>Page Title</title>
+    <title>Andrew Kelleher | Contact</title>
+    <link rel="icon" href="./assets/favicon.png">
 
 </head>
 
 <body>
 
-    <!-- Placeholder Image -->
-    <!-- <img class="img img-thumbnail" src="http://placehold.it/150x150"> -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <!-- Custom Avatar -->
+        <img src="./assets/Avatar.jpg" class="img-fluid rounded-circle avatar" alt="Andrew Kelleher, Avatar">
+        <!-- Page Title -->
+        <a class="navbar-brand handwritten" href="#">Andrew Kelleher</a>
+        <!-- Hamburgler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <!-- Menu Options -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section class="container h-100">
+        <div class="row">
+            <!-- Contact -->
+            <div class="container bg-white p-3 mt-5 mb-5">
+                <div class="row align-items-center">
+                    <figure class="col-12 col-lg-4 mb-0 text-center ">
+                        <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="andrew-kelleher-58018588"><a class="LI-simple-link" href='https://au.linkedin.com/in/andrew-kelleher-58018588?trk=profile-badge'>Andrew Kelleher</a></div>
+                    </figure>
+                    <div class="col-12 col-lg-8">
+                        <h1 class="handwritten">Contact me!</h1>
+                        <p>If you would like to get in contact with me, this form is broken but you can try it anyway.</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="contact_name">Your Name?</label>
+                                <input type="text" class="form-control" id="contact_name"
+                                    placeholder="&lt;Please enter your name&gt;">
+                            </div>
+                            <div class="form-group">
+                                <label for="contact_email">Your Email Address?</label>
+                                <input type="text" class="form-control" id="contact_email"
+                                    placeholder="&lt;Please enter your email address&gt;">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Your Message?</label>
+                                <textarea class="form-control" id="contact_message" rows="3" placeholder="&lt;Please enter your message&gt;"></textarea>
+                              </div>
+                            <button type="button" class="btn btn-secondary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom container-fluid">
+        <div class="row h-100 align-items-center">
+            <div class="col text-right">
+                <span>&copy; 2020 Andrew Kelleher</span>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
 </html>
+
+<!-- HTML validated by https://validator.w3.org/ -->
