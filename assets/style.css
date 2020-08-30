@@ -4,31 +4,7 @@
     margin-right: 20px;
 }
 
-html {
-    height: calc(100% - 130px);
-    /* min-height: 600px; */
-}
-
-body {
-    background-color: white;
-    height: 100%;
-    /* Background downloaded for free from https://www.transparenttextures.com/  */
-    background: url("./diagmonds.png");
-    /* min-height: 600px;*/
-    margin-top: 120px;
-    margin-bottom: 120px; 
-}
-
-section {
-  
-}
-
-footer {
-    background-color: white;
-    height: 50px;
-    border-top: 10px solid teal;
-}
-
+/* Content Styling */
 h1 {    
     font-size: 4em;
 }
@@ -37,9 +13,18 @@ h1 {
     font-family: 'Permanent Marker', cursive;
 }
 
-@media screen and (min-height: 600px){
 body {
+    /* Background downloaded for free from https://www.transparenttextures.com/  */
+    background: url("./diagmonds.png");
+    background-color: white;
+    height: 100%;
     margin-top: 80px;
-    margin-bottom: 0px;
+    margin-bottom: 80px; 
 }
 
+/* Footer styling */
+footer {
+    background-color: white;
+    height: 50px;
+    border-top: 10px solid teal;
+}
