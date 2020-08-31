@@ -1,3 +1,13 @@
+/* Custom font that I developed */
+@font-face {
+    font-family: diemrbond;
+    src: url(./diemrbond.woff);
+}
+
+.diemrbond {
+    font-family: diemrbond;
+}
+
 /* Custom Avatar for the Navbar */
 .avatar {
     max-width: 4em;
@@ -5,7 +15,7 @@
 }
 
 /* Content Styling */
-h1 {    
+h1 {
     font-size: 4em;
     border-bottom: 1px solid lightgray;
     padding-bottom: 0.2em;
@@ -21,7 +31,7 @@ body {
     background-color: white;
     height: 100%;
     margin-top: 80px;
-    margin-bottom: 80px; 
+    margin-bottom: 80px;
 }
 
 /* Footer styling */
@@ -32,8 +42,8 @@ footer {
 }
 
 /* Media queries */
-@media (max-width: 992px) { 
-    h1 {    
+@media (max-width: 992px) {
+    h1 {
         padding-top: 10px;
         text-align: center;
     }
